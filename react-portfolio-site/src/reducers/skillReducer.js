@@ -12,7 +12,7 @@ export const initialState = {
   requestState: requestStates.idle,
 }
 
-export const skillReduser = (
+export const skillReducer = (
   state, action
 ) => {
   switch (action.type) {
